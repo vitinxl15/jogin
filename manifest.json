@@ -1,0 +1,23 @@
+{
+    "name": "Contador Rápido 1-20",
+    "short_name": "Contador Rápido",
+    "description": "Joginho de Contagem Rápida 1-20",
+    "start_url": "https://vitinxl15.github.io/jogin/",
+    "background_color": "#2196f3",
+    "theme_color": "#2196f3",
+    "scope": "https://vitinxl15.github.io/jogin/",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "fundo.jpg",
+            "sizes": "192x192"
+           
+        }
+    ],
+    "lang": "pt-BR",
+    "dir":"auto",
+    "categories": ["games"],
+    "id": "vitinxl15",
+    "orientation": "any"
+    
+}
