@@ -10,7 +10,8 @@
     "icons": [
         {
             "src": "fundo.jpg",
-            "sizes": "192x192"
+            "sizes": "512x512"
+           
            
         }
     ],
