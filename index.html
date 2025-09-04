@@ -17,6 +17,12 @@
   <p id="message"></p>
   <button id="restart">Recomeçar</button>
 
+  <script>
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('pwabuilder-sw.js');
+    }
+  </script>
+
   <script src="script.js"></script>
 </body>
 </html>
