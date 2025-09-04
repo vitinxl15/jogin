@@ -6,12 +6,12 @@
   "background_color": "#2196f3",
   "theme_color": "#2196f3",
   "scope": "https://vitinxl15.github.io/jogin/",
-  "display": "standalone",
+  "display": "fullscreen",
   "icons": [
-    { 
-      "src":"jogo.png",
-      "sizes":"512x512",
-      "type":"image/png"
+    {
+      "src": "jogo.png",
+      "sizes": "512x512",
+      "type": "image/png"
     },
     {
       "src": "windows11/SmallTile.scale-100.png",
@@ -468,5 +468,5 @@
     "games"
   ],
   "id": "vitinxl15",
-  "orientation": "any"
+  "orientation": "portrait"
 }
