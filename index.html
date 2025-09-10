@@ -16,19 +16,10 @@
   <div id="grid"></div>
   <p id="message"></p>
   <button id="restart">Recomeçar</button>
-
-  <script>
-    if (typeof navigator.serviceWorker !== 'undefined') {
-      navigator.serviceWorker.register('pwabuilder-sw.js');
-    }
-    if ('setAppBadge' in navigator) {
-      navigator.setAppBadge(1);
-    }
-    Notification.requestPermission();
-    importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
-  </script>
+  <button id="btn-permissao" style ="font-size: 16px; padding: 10px; background:#ddd;">notificacao></button>
 
   <script src="script.js"></script>
-  <script src="pwabuilder-sw.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/12.2.1/firebase-mensaging.js" ></script>
+ <script src="app.js"></script>
 </body>
 </html>
