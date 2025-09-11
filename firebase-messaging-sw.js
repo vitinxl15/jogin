@@ -12,7 +12,7 @@ const firebaseConfig = {
   measurementId: "G-DX1QC5PKVZ"
 };
 const app = initializeApp(firebaseConfig);
-const messaging = firebaseConfig.messaging();
+const messaging = getMessaging(app);
 
 messaging.onBackgroundMessage((ms)=>{
   console.log('[firebase-messaging-sw.js] Mensagem recebida', ms);
