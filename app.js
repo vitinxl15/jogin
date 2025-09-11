@@ -1,3 +1,7 @@
+
+import {initializeApp} from "https://www.gstatic.com/firebasejs/12.2.1/firebase-app.js";
+import {getMessaging} from "https://www.gstatic.com/firebasejs/12.2.1/firebase-messaging.js";
+
 const firebaseConfig = {
   apiKey: "AIzaSyAjTC-rkc4hweFxljmq_whWKMsj9KCzuVs",
   authDomain: "pwa-notificao.firebaseapp.com",
